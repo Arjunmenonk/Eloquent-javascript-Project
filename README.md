@@ -34,6 +34,7 @@ Visual studio code
   Inside the function declare a variable total and initialize its value to 0.
   
   Then create a loop as 
+  
   for (let value of array) 
       
   total += value;
@@ -46,7 +47,36 @@ Visual studio code
      
 2. Two.js(Reversing an Array)
 
-    
+  Create a function with name as ReverseArray(array)
+  
+  Inside function initialize value of Outpus as[]
+  
+  Then create a for loop, for (let i = array.length - 1; i >= 0; i--)
+  
+  Inside loop push the array list by value of i.
+  
+  Return the output outside the loop.
+  
+  Again create a function with name reverseArrayInPlace(array)
+  
+  Inside function create a loop as
+  
+  or (let i = 0; i < Math.floor(array.length / 2); i++)
+  
+  Inside loop 
+  
+  Swapping is done
+  
+  let old= array[i]
+  
+  array[i] = array[array.length - 1 - i];
+     
+  array[array.length - 1 - i] = old;
+  
+  Return the array outside the loop.
+  
+  utside the function print the reverse array,specify the array values and print reverse array in place as arrayvalue.
+  
 3. Three.js(A List)
 
 4.Four.js(Chessboard)
