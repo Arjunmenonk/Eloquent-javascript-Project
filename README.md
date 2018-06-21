@@ -8,7 +8,7 @@ Getting Started These instructions will get you a copy of the project up and run
 
 Visual studio code
 
-## How to Execute
+## Code Explanation
 
 1.  One.js(Sum of Range)
 
@@ -143,16 +143,17 @@ outside the inner for loop , board += "\n";
 
 Outside outse for loop print the board value.
 
+## How to save
+
 Once the code is typed in Visual studio code, Save the file with .js extension
 
-In the left tab,the file name will be displayed, right click the file and click "Open in Terminal
+## How to execute
 
-Type node and the filename.js to execute
+Type node and the filename.js to execute in terminal
 
 ## Authors
 
 Marijn Haverbeke
-
 
 ## Acknowledgments 
 
