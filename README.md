@@ -21,28 +21,28 @@ Visual studio code
   for (let i = start; i <= end; i += step) 
       
   array.push(i);
-
-  else
-     {
-      for (let i = start; i >= end; i += step) array.push(i);
-     }
-    return array;
+ 
+ Create a loop as
+ 
+ for (let i = start; i >= end; i += step) array.push(i);
+ 
+ return the array outside.
     
     
   Create another function with name as sum and accepts single parameter   (i.e) array
   
   Inside the function declare a variable total and initialize its value to 0.
   
-  Then for (let value of array) 
-    {
-      total += value;
-    }
-   
-    This loop will allow the variable to add the values and store.
+  Then create a loop as 
+  for (let value of array) 
+      
+  total += value;
+  
+  This loop will allow the variable to add the values and store.
      
-     Finally return the total
+  Finally return the total
      
-     Outside the function print the range values and total sum of the range.
+  Outside the function print the range values and total sum of the range.
      
 2. Two.js(Reversing an Array)
 
