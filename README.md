@@ -37,7 +37,8 @@ Visual studio code
     {
       total += value;
     }
-     This loop will allow the variable to add the values and store.
+   
+    This loop will allow the variable to add the values and store.
      
      Finally return the total
      
