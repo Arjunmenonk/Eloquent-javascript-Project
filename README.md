@@ -153,9 +153,6 @@ Type node and the filename.js to execute
 
 Marijn Haverbeke
 
-## License 
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgments 
 
