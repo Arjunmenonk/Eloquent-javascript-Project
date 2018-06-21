@@ -10,11 +10,45 @@ Visual studio code
 
 ## How to Execute
 
-1. Arrays 
+1.  One.js(Sum of Range)
 
-2. Comments
+  Create a function with name as Range which accepts 3 parameters (start, end, step = start < end ? 1 : -1) 
+  
+  Inside function declare the array as empty (i.e) let array=[];
+  
+  Check the condition whether value of step is > 0 or not, if > then 
+  
+  for (let i = start; i <= end; i += step) 
+      
+  array.push(i);
 
-3. Fixing scope
+  else
+     {
+      for (let i = start; i >= end; i += step) array.push(i);
+     }
+    return array;
+    
+    
+  Create another function with name as sum and accepts single parameter   (i.e) array
+  
+  Inside the function declare a variable total and initialize its value to 0.
+  
+  Then for (let value of array) 
+    {
+      total += value;
+    }
+     This loop will allow the variable to add the values and store.
+     
+     Finally return the total
+     
+     Outside the function print the range values and total sum of the range.
+     
+2. Two.js(Reversing an Array)
+
+    
+3. Three.js(A List)
+
+4.Four.js(Chessboard)
 
 Once the code is typed in Visual studio code, Save the file with .js extension
 
