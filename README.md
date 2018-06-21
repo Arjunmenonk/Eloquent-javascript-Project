@@ -10,7 +10,7 @@ Visual studio code
 
 ## Code Explanation
 
-1.  One.js(Sum of Range)
+## 1.  One.js(Sum of Range)
 
      Create a function with name as Range which accepts 3 parameters (start, end, step = start < end ? 1 : -1) 
   
@@ -45,7 +45,7 @@ Visual studio code
      
   Outside the function print the range values and total sum of the range.
      
-2. Two.js(Reversing an Array)
+## 2. Two.js(Reversing an Array)
 
   Create a function with name as ReverseArray(array)
   
@@ -77,7 +77,7 @@ Visual studio code
   
   utside the function print the reverse array,specify the array values and print reverse array in place as arrayvalue.
   
-3. Three.js(A List)
+## 3. Three.js(A List)
 
 Create a function arraytolist(array)
 
@@ -125,7 +125,7 @@ return nth(list.rest, n - 1);
 
 Outside function Print arrayToList,(listToArray(arrayToList),prepend(10, prepend(20, null)) and (nth(arrayToList([10, 20, 30]), 1))
 
-4.Four.js(Chessboard)
+## 4.Four.js(Chessboard)
 
 Initialize size= 8 and board=""
 
