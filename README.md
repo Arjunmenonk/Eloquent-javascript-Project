@@ -79,7 +79,69 @@ Visual studio code
   
 3. Three.js(A List)
 
+Create a function arraytolist(array)
+
+initialize list to null
+
+create a for loop
+
+for (let i = array.length - 1; i >= 0; i--) 
+
+and inside give,
+
+list = {value: array[i], rest: list};
+
+Return list outside loop.
+
+Create another function listtoarray(list)
+
+initialize array=[]
+
+create a for loop and push the node.value
+
+for (let node = list; node; node = node.rest) 
+
+Return the array outide the loop.
+
+create another function as prepend(value, list)
+
+and return {value, rest: list}
+
+create another function nth(list, n)
+
+Inside function,check
+
+if (!list) 
+
+return undefined;
+
+lse if (n == 0) 
+
+return list.value;
+
+else 
+
+return nth(list.rest, n - 1);
+
+Outside function Print arrayToList,(listToArray(arrayToList),prepend(10, prepend(20, null)) and (nth(arrayToList([10, 20, 30]), 1))
+
 4.Four.js(Chessboard)
+
+Initialize size= 8 and board=""
+
+create a for loop for(let y = 0; y < size; y++)
+
+And another loop inside it for (let x = 0; x < size; x++)
+
+check if ((x + y) % 2 == 0)
+
+if yes, then board += " ";
+
+else, board += "#";
+
+outside the inner for loop , board += "\n";
+
+Outside outse for loop print the board value.
 
 Once the code is typed in Visual studio code, Save the file with .js extension
 
