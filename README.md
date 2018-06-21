@@ -20,10 +20,6 @@ Once the code is typed in Visual studio code, Save the file with .js extension
 
 In the left tab,the file name will be displayed, right click the file and click "Open in Terminal
 
-## Built With
-
-Maven - Dependency Management
-
 ## Authors
 
 Marijn Haverbeke
