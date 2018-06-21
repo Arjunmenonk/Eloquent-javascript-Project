@@ -12,7 +12,32 @@ Visual studio code
 
 1.  One.js(Sum of Range)
 
+     Create a function with name as Range which accepts 3 parameters (start, end, step = start < end ? 1 : -1) 
   
+  Inside function declare the array as empty (i.e) let array=[];
+  
+  Check the condition whether value of step is > 0 or not, if > then 
+  
+  for (let i = start; i <= end; i += step) 
+      
+  array.push(i);
+
+  else
+     {
+      for (let i = start; i >= end; i += step) array.push(i);
+     }
+    return array;
+    
+    
+  Create another function with name as sum and accepts single parameter   (i.e) array
+  
+  Inside the function declare a variable total and initialize its value to 0.
+  
+  Then for (let value of array) 
+    {
+      total += value;
+    }
+     This loop will allow the variable to add the values and store.
      
      Finally return the total
      
